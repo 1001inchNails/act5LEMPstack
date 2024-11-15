@@ -1,0 +1,73 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #696768;
+}
+.contenedorLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    gap: 30px;
+    background-color: #b9b6b8;
+}
+#errorM{
+    visibility: hidden;
+}
+#logForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.input[text] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.inputSend:focus {
+    outline: none;
+    border-color: #0056b3;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+}
+
+#buttSendDB {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+#buttSendDB:hover {
+    background-color: #0056b3;
+}
+
+#buttSendDB:active {
+    transform: translateY(1px);
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+}

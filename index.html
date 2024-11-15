@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="/css/index.css" type="text/css">
+</head>
+<body>
+    <div class="contenedorLogin">
+        <form id="logForm">
+            <label for="nombre">Usuario:</label>
+            <input type="text" id="nombre" name="nombre" required value="">
+            <label for="passw">Password:</label>
+            <input type="password" id="passw" name="passw" required value="">
+            <br>
+            <br>
+            <input id="buttSendDB" type="submit" value="Send">
+        </form>
+
+        <div id="errorM">Login Erroneo</div> 
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="/js/login.js"></script>
+</body>
+</html>

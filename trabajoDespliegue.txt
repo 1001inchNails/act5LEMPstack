@@ -1,0 +1,9 @@
+hacer pagina php BBDD, con
+
+login, solo auth users para que:
+
+vean lista clientes(tipo carta), imagen y datos de cliente(nombre, descr,foto) (que se saquen de un api o donde sea)
+opción para que usuario añada cliente, modificar y eliminar (esos datos, a la base de datos)
+
+
+ver vs code extension Database Client
